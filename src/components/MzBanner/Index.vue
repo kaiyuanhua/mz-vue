@@ -1,9 +1,12 @@
 <template>
   <div class="swiper-container MzBanner">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" v-for="item in bannerList" :key="item.id">
-        <img :src="item.imgUrl" :alt="item.name"/>
-      </div>
+      <!--<div class="swiper-slide" v-for="item in bannerList" :key="item.id">-->
+        <!--<img :src="item.imgUrl" :alt="item.name"/>-->
+      <!--</div>-->
+      <div class="swiper-slide"><img src="https://static.maizuo.com/v5/upload/883a29ce13cb25509b2ec69d9258775c.jpg?x-oss-process=image/quality,Q_70"/></div>
+      <div class="swiper-slide"><img src="https://static.maizuo.com/v5/upload/7d6b781a983964cbc99bea48e5751079.jpg?x-oss-process=image/quality,Q_70"/></div>
+      <div class="swiper-slide"><img src="https://static.maizuo.com/v5/upload/7d6b781a983964cbc99bea48e5751079.jpg?x-oss-process=image/quality,Q_70"/></div>
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
